@@ -42,7 +42,7 @@ jobs:
 
     permissions:
       contents: read
-      package: write
+      packages: write
 
     steps:
       - name: Checkout
