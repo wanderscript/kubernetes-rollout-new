@@ -55,7 +55,7 @@ jobs:
 
       - name: Normalize image name
         run: |
-          echo "IMAGE_NAME=ghrc.io/${GITHUB_REPOSITORY,,}" >> "$GITHUB_ENV"
+          echo "IMAGE_NAME=ghcr.io/${GITHUB_REPOSITORY,,}" >> "$GITHUB_ENV"
 
       - name: Log in to GHCR
         uses: docker/login-action@v3
