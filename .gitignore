@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.log
+.DS_Store
+.idea/
+.vscode/
+coverage.out
